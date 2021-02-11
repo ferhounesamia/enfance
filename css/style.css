@@ -1,0 +1,137 @@
+ a:hover{
+    color: orangered !important;
+}
+.header {
+  
+    background-image: url("../images/image33.jpg");
+    height: 100vh; 
+    margin-top: 100px;
+    padding-left: 70px;
+    padding-top: 70px;
+    background-position: center;
+    background-size: cover;
+  
+ }
+
+ 
+ .apropos{
+  background-color:#A3D2EE;
+  padding:120px;
+  
+   
+ }
+ 
+ 
+ .jardin{
+ background-color:#F8F8F8;
+  padding-top: 120px;
+  padding-bottom: 120px;
+ 
+ 
+ }
+ 
+ .info{
+ background-color:#F8F0F0;
+  padding-top: 120px;
+  padding-bottom: 120px;
+ 
+ 
+ }
+ 
+ .contact{
+  background-image: url("../images/yellow.jpg");
+  background-position: center;
+  background-size: cover;
+  padding-top: 185px;
+  padding-bottom: 70px;
+  padding-left: 70px;
+ 
+ 
+ }
+ 
+ .footer{
+ background-image: url("../images/footer_bg.jpg");
+ height: 16vh;
+ padding-top:30px;
+ 
+ 
+ }
+ 
+ h1 {
+     font-style: normal;
+     font-size: 53px;
+     line-height: 1.1;
+     font-family: "Comic Sans MS", cursive, sans-serif;
+     letter-spacing: 0px;
+     text-align: inherit;
+     color: #343434;
+ }
+ h4{
+     font-family: "Comic Sans MS", cursive, sans-serif;
+     font-size: 33px;
+     color: #F9C145;
+ }
+ button{
+     background-color: #39beff;
+     border-color: #39beff;
+     color: #ffffff !important;
+     padding: 17px 30px;
+     text-transform: uppercase;
+     border-radius: 4px;
+     font-family:  cursive;
+     }
+ 
+ .ronde{
+     border-radius: 50%;
+     width: 200px;
+     height: 200px;
+     
+ }
+ .ronde2
+ {
+     border-radius: 10%;
+ }
+ 
+ .card{
+     background-color:#F8F8F8;
+     border: none;
+     text-align: center;
+ }
+ .card .img-fluid:hover{
+     border-radius: 0;
+     height: 100%;
+     width: 100%;
+ }
+ h2{
+     font-family:  cursive, sans-serif;
+     font-size: 60px;
+     color: #ed7f07;
+     text-align: center;
+ }
+ .centrer{
+ 
+     text-align: left;
+     color:white;
+ 
+ 
+ }
+ 
+ 
+ p{
+     
+     font-family:cursive;   
+     font-size: 100%; 
+     
+     text-align: center;
+        color: #9f9f9f;   
+ }
+ 
+ .orange{
+     color: orangered;
+ }
+ 
+ .with-errors{
+     color: orangered;
+ }
+ 
+ 

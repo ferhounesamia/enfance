@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Jardins d'enfants</title>
+  </head>
+  <body>
+    <div>
+      <nav class="navbar navbar-expand-sm navbar-light bg-warning fixed-top">
+        <div class="container">
+          <button
+            class="navbar-toggler"
+            data-toggle="collapse"
+            data-target="#Navbar"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand" href="#">
+            <img src="images/images (2).jpg" height="80" width="300" alt="" />
+          </a>
+          <div class="collapse navbar-collapse" id="Navbar">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a href="#" class="navbar-brand">Acceuil</a>
+              </li>
+              <li class="nav-item">
+                <a href="#Apropos" class="navbar-brand">A propos</a>
+              </li>
+              <li class="nav-item">
+                <a href="#Jardins" class="navbar-brand">Jardins</a>
+              </li>
+              
+              <li class="nav-item">
+                <a href="#Contact" class="navbar-brand">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <div class="container-fluid header">
+      <h1 class="display-6">
+        BIENVENUE DANS NOS
+        <br />
+        JARDINS D'ENFANTS <br><br>
+      </h1>
+      <div>
+      <h4>Un environnement enrichissant<br />pour vos enfants…  <br><br></h4>
+      </div>
+      <button><a href="#Apropos"><h5>En savoir +</h5></a></button>
+    </div>
+
+    <div id="Apropos" class="container-fluid apropos">
+      
+      <h2>Apropos de nous <br> <br></h2>
+      <div class="row">
+       <div class="col-xl">
+         <p class="centrer"> <big> Une maternelle, structure familiale dirigée par <br> 
+        Mme Louiza depuis 10 ans dont l’exigence de la <br> 
+        qualité de l’enseignement, de l’hygiène et de la sécurité <br> 
+        des enfants est une priorité. Avec une équipe <br> 
+        pédagogique expérimentée dans le domaine de la <br> 
+        petite enfance. Des enseignantes formées toute l’année <br> 
+        à l’innovation des activités pédagogiques adaptées à <br> 
+        l’âge de l’enfant, dans différentes sections : <br> <br>
+
+        <i class="fa fa-check-circle-o" style="font-size:28px;color:white"></i> Tout-petits (24 mois) <br>
+        <i class="fa fa-check-circle-o" style="font-size:28px;color:white"></i> Petits (3 ans) <br>
+        <i class="fa fa-check-circle-o" style="font-size:28px;color:white"></i> Moyens (4 ans) <br>
+        <i class="fa fa-check-circle-o" style="font-size:28px;color:white"></i> Grands (5 ans) </big> </p>
+       </div>
+       <div class="col-xl">
+        <img
+              src="images/54259336-kindergarten-salle-de-jeux.jpg"
+              class="img-fluid m-auto ronde2" width="100%" height="70%"           />
+       </div>
+      </div>
+
+    </div>
+    <div id="Jardins" class="container-fluid jardin">
+      <div class="row">
+        <div class="col-lg-3 mt-5">
+          <div class="card">
+             <img
+              src="images/rentree-ecole-maternelle.jpg"
+              class="img-fluid m-auto py-3 ronde"/>
+             <div class="card-body">
+              <h4 class="card-title">les Girofles</h4>
+              <p class="card-text"><br></p>
+              <button onclick="showDiv()"><a href="#Info" class="btn btn-danger">Voir +</a></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 mt-5">
+          <div class="card">
+            <img
+              src="images/d5e60c07b0ed94ca3a98e58a9c82f7e4.jpg"
+              class="img-fluid m-auto py-3 ronde"
+            />
+            <div class="card-body">
+              <h4 class="card-title">les Jasmins</h4>
+              <p class="card-text"><br></p>
+              <button onclick="showDiv()"><a href="#Info" class="btn btn-warning">Voir +</a></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 mt-5">
+          <div class="card">
+            <img
+              src="images/ecolematernelle.jpg"
+              class="img-fluid m-auto py-3 ronde"
+            />
+            <div class="card-body">
+              <h4 class="card-title">les Marguerites</h4>
+              <p class="card-text"><br></p>
+              <button onclick="showDiv()"><a href="#Info" class="btn btn-success">Voir +</a></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 mt-5">
+          <div class="card">
+            <img
+              src="images/Des-salles-d-asile-aux-ecoles-maternelles-histoire-de-l-ecole-des-touts-petits.jpg"
+              class="img-fluid m-auto py-3 ronde"
+            />
+            <div class="card-body">
+              <h4 class="card-title">les Iris</h4>
+              <p class="card-text"><br></p>
+              <button onclick="showDiv()"><a href="#Info" class="btn btn-info">Voir +</a></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="Info" class="container-fluid info">
+
+      
+    </div>
+
+    <div id="Contact" class="container-fluid contact">
+      <h4 class="orange">Posez-nous vos questions ! <br> <br></h4>
+
+      <div class="row">
+  
+        <div class="col-lg-8 col-lg-offset-2">
+  
+          
+          <form id="contact-form" method="post" action="" role="form">
+  
+          <div class="messages"></div>
+  
+          <div class="controls">
+  
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="form_name">Prénom *</label>
+                  <input id="form_name" type="text" name="name" class="form-control" placeholder="Votre Prénom *" required="required" data-error="Prénom obligatoire.">
+                  <div class="help-block with-errors"></div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="form_lastname">Nom *</label>
+                  <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Votre Nom *" required="required" data-error="Nom obligatoire.">
+                  <div class="help-block with-errors"></div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="form_email">Email *</label>
+                  <input id="form_email" type="email" name="email" class="form-control" placeholder="Votre email *" required="required" data-error=" Email Valid obligatoire.">
+                  <div class="help-block with-errors"></div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="form_phone">Téléphone</label>
+                  <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Votre numéro téléphone">
+                  <div class="help-block with-errors"></div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <div class="form-group">
+                  <label for="form_message">Message *</label>
+                  <textarea id="form_message" name="message" class="form-control" placeholder="Message pour nous *" rows="4" required data-error="Laissez un message S.V.P."></textarea>
+                  <div class="help-block with-errors"></div>
+                </div>
+              </div>
+              <div class="col-md-12">
+                <input type="submit" class="btn btn-danger btn-send" value="Envoyer">
+              </div>
+            </div>
+           
+          </div>
+  
+          </form>
+  
+        </div>
+  
+      </div>
+  
+    </div>
+
+      <footer class="container-fluid footer">
+              
+        <h6 style="text-align: center; font-family: cursive;"> Création <span class="orange"> Samia Ferhoune </span>  - © 2021 -</h6>
+
+      </footer>
+    </div>
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
+      integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
+      integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.min.js'></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
